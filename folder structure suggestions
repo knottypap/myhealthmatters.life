@@ -1,0 +1,8 @@
+project-folder/
+│
+├── 1.html
+├── style.css
+└── images/
+    ├── photo1.jpg
+    ├── photo2.jpg
+    └── photo3.jpg
