@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fast Website</title>
+
+  <!-- Minified and combined CSS -->
+  <link rel="preload" href="styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="styles.min.css"></noscript>
+
+  <!-- Load fonts asynchronously -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Fast Website Example</h1>
+  </header>
+
+  <main>
+    <img src="image.webp" loading="lazy" width="600" height="400" alt="Optimized Image" />
+    <p>This image is lazy-loaded and in WebP format for better performance.</p>
+  </main>
+
+  <!-- Defer JavaScript loading -->
+  <script src="scripts.min.js" defer></script>
+</body>
+</html>
